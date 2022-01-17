@@ -11,19 +11,19 @@ Our research group conducted online meetings with an OttawaU Social Science Prof
 
 I developed the visualizations according to the previous designs using the d3 library in Javascript.
 
-The entry page includes a sunburst diagram containing all the possible attributes available in the dataset on the right and attributes suggested for collection in grey. Clicking on a collected attribute indicates that it will be visualized. Suppose I want to see the age and gender distribution across the years, I shall select all of them and then click 'visualize' on the top right corner. 
+The entry page includes a sunburst diagram containing all the possible attributes available in the dataset on the right and attributes suggested for collection in grey. Clicking on a collected attribute indicates that it will be visualized. To view all the attributes in a category, simply click on the category. Suppose I want to see the age and gender distribution across the years, I shall select all of them and then click 'visualize' on the top right corner. 
 
-The ring diagram visualizes every combination of the selected academic attributes as slices (academic year). The slices contain every selected diversity attribute (in this case age and gender) with each demographic represented as arcs. Each arc represents the ratio of the diversity value to the total number of students in the selected category.
+The ring diagram visualizes every combination of the selected academic attributes as slices (academic year). Each slice contains every selected diversity attribute (in this case age and gender) with each demographic represented as arcs. Each arc represents the ratio of the diversity value to the total number of students in the selected category.
 
 Perhaps one wants to see the age distribution of females in 2013, one can click on the appropriate arc to obtain that data. 
 
 The back button in the top left corner is there for navigational purposes. 
 
-The compare button on the top right corner provides users with a different view of the data that allows comparison. As you may observe with this particular dataset, students aged 55+ was comparatively low until the 2019/20 academic year. 
+The compare button on the top right corner provides users with a different view of the data that allows comparison. 
 
 Reclicking the top right button, will switch the visualization back to the conjoined form. 
 
-Clicking back once again will navigate back to the sunburst diagram where other attributes may be selected.
+Clicking back once again will navigate the user to the sunburst diagram where other attributes may be selected.
 
 
 
