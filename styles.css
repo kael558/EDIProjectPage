@@ -1,0 +1,55 @@
+body{
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #0F0E0E;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  background-color: #EEEEEE;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 2px solid #541212;
+  letter-spacing: 0.1em;
+  padding-top: 12px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.75;
+  font-weight: 100;
+}
+
+iframe {
+  width: 600px;
+  height: 350px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}

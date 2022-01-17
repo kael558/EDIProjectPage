@@ -1,0 +1,37 @@
+We present a visualization of Carleton University Students Collected & Missing Demographics Data. 
+
+The Carleton Data Cubes contain information about the demographics of students.
+
+The goal of the project was to design an interactive visualization web-based platform. First, it must provide a visual comparison of student diversity in different academic categories. Second, it must show the missing data to bring awareness to the need for universities to collect important demographic information.
+
+Our research group conducted online meetings with an OttawaU Social Science Professor who is also a research specialist in EDI. We discussed the collected & missing attributes in the dataset and potential idea's for designs. Some of the missing attributes suggested for collection are listed here. An inconsistency with the dataset was the labelling of the Gender attribute which was labelled as "Sex' which is not normally collected in an academic setting. Finally, I designed some low/medium fidelity visualizations, downloaded the data from the data cubes and cleaned it using Python. 
+
+
+
+
+I developed the visualizations according to the previous designs using the d3 library in Javascript.
+
+The entry page includes a sunburst diagram containing all the possible attributes available in the dataset on the right and attributes suggested for collection in grey. Clicking on a collected attribute indicates that it will be visualized. Suppose I want to see the age and gender distribution across the years, I shall select all of them and then click 'visualize' on the top right corner. 
+
+The ring diagram visualizes every combination of the selected academic attributes as slices (academic year). The slices contain every selected diversity attribute (in this case age and gender) with each demographic represented as arcs. Each arc represents the ratio of the diversity value to the total number of students in the selected category.
+
+Perhaps one wants to see the age distribution of females in 2013, one can click on the appropriate arc to obtain that data. 
+
+The back button in the top left corner is there for navigational purposes. 
+
+The compare button on the top right corner provides users with a different view of the data that allows comparison. As you may observe with this particular dataset, students aged 55+ was comparatively low until the 2019/20 academic year. 
+
+Reclicking the top right button, will switch the visualization back to the conjoined form. 
+
+Clicking back once again will navigate back to the sunburst diagram where other attributes may be selected.
+
+
+
+
+
+There are many reasons for this visualization:
+ - oftentimes in the real world, sometimes relevant data is missing and this visualization showcases a design that allows the user to see in proportion how much data is collected and not collected.
+ - the 2nd design is concise and compact and allows any combination of demographic attributes using slices and rings.
+ - As such it may motivate other researchers and designers to develop innovative visualizations of diversity or of missing data.
+ - this visualization increases awareness of diversity in the university and it may help policy makers make data-driven decisions in accomodation of diversity, equity and inclusion.
+
