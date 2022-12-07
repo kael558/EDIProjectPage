@@ -23,10 +23,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project was created under the supervision of [Dr. Fateme Rajabiyazdi](https://fatemerajabiyazdi.github.io//).
+This project was funded under the [I-CUREUS Research Grant by Carleton University](https://carleton.ca/tls/future-learning-lab/i-cureus/).
+
+This project was supervised by [Dr. Fateme Rajabiyazdi](https://fatemerajabiyazdi.github.io//).
 
 See all information about the project [here](https://kael558.github.io/EDIProjectPage/).
-
 
 ### Built With
 * [D3](https://d3js.org/)
@@ -124,18 +125,12 @@ Visualization is accessible [here](https://kael558.github.io/symmetrical-dollop/
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- CONTACT -->
 ## Contact
-
 Rahel Gunaratne:
  - Email: rahel.gunaratne@gmail.com
  - [Twitter](https://twitter.com/gunaratne_rahel)
  - [LinkedIn](https://www.linkedin.com/in/rahelgunaratne/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
